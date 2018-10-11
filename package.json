@@ -1,0 +1,24 @@
+{
+	"name": "@kunukn/dfds-fonts",
+	"version": "0.0.10",
+	"description": "",
+	"main": "index.js",
+	"files": [
+		"fonts"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "browser-sync start -s -f='*.*'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kunukn/dfds-fonts.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kunukn/dfds-fonts/issues"
+	},
+	"homepage": "https://github.com/kunukn/dfds-fonts#readme"
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-display: swap;
+  font-family: DFDS;
+  src: url('./DFDS-Regular.woff2') format('woff2'),
+    url('./DFDS-Regular.woff') format('woff'), url('./DFDS-Regular.eot'),
+    url('./DFDS-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DFDS;
+  src: url('./DFDS-Bold.woff2') format('woff2'),
+    url('./DFDS-Bold.woff') format('woff'), url('./DFDS-Bold.eot'),
+    url('./DFDS-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DFDS;
+  src: url('./DFDS-Light.woff2') format('woff2'),
+    url('./DFDS-Light.woff') format('woff'), url('./DFDS-Light.eot'),
+    url('./DFDS-Light.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: DFDS;
+  src: url('./DFDS-Italic.woff2') format('woff2'),
+    url('./DFDS-Italic.woff') format('woff'), url('./DFDS-Italic.eot'),
+    url('./DFDS-Italic.ttf') format('truetype');
+  font-style: italic;
+}
