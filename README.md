@@ -1,8 +1,8 @@
 # DFDS fonts
 
-## main font from CDN
+## Main font from CDN
 
-load the font by inluding this in html
+Load the font by inluding this in html
 
 ```html
  <link rel="stylesheet" 
@@ -24,7 +24,7 @@ or load it dynamically from javascript
 </script>
 ```
 
-apply the font in css
+Apply the font in CSS
 
 ```css
 body {
@@ -47,39 +47,36 @@ use the font
 <p>this is a normal font</p>
 <p class="font-bold">this is a bold font</p>
 <p class="font-light">this is a light font</p>
-<p class="font-italic">this is a italic style</p>
+<p class="font-italic">this is an italic style</p>
 ```
 
 
-## main font from npm
+## Main font from npm
 
-* npm install @kunukn/dfds-fonts
-* the files are in node_modules/@kunukn/dfds-fonts/fonts
+```bash
+npm install @kunukn/dfds-fonts # yarn add @kunukn/dfds-fonts
+```
+ 
+* the files are in `node_modules/@kunukn/dfds-fonts/fonts`
 
-load the font by inluding this in html
+For quick prototyping, load the font by inluding this in HTML
 
 ```html
 <link rel="stylesheet" 
       href="node_modules/@kunukn/dfds-fonts/fonts/main/font.css">
 ```
 
+Alternatively copy the files to a folder outside node_modules.
 
-## demo
+## Demo
 
 * https://codepen.io/kunukn/pen/a9b31a0efb571cc6eadfa79d15a02501
 * https://codesandbox.io/s/4x9496jqm4
 * https://codepen.io/kunukn/pen/6f88297701bf62e8a4118015e02a507b?editors=0010
 
 
-## more
+## More
 
 To see all the available CDN files go to 
 
 https://unpkg.com/@kunukn/dfds-fonts/
-
-
-## url shortened link alternative
-
-```html
- <link rel="stylesheet" href="https://bit.do/dfds-font">
-```
